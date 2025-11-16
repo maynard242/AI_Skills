@@ -79,14 +79,14 @@ The slide is a flex-col with a header sized to its content, a main body that gro
         "AI Service Comparison Guide (Enterprise)"
       ],
       "Training Platforms": [
-        "Coursera for Government & Enterprise",
+        "Coursera for Enterprise",
         "AWS Training and Certification",
         "Microsoft Learn for Azure AI",
         "Google Cloud Skills Boost"
       ],
       "Community & Events": [
         "Internal AI Community of Practice (to be established)",
-        "Government AI Network",
+        "Industry AI Networks",
         "Cloud AI Summit Series",
         "AI Ethics & Governance Forums"
       ]
@@ -103,7 +103,7 @@ The slide is a flex-col with a header sized to its content, a main body that gro
     Main_Message: "The AI revolution is here. Equip your teams with the skills they need to lead in an AI-augmented future."
     Contact_Info: {
       "Program Lead": "AI Skills Framework Implementation Team",
-      "Email": "ai-skills@agency.gov",
+      "Email": "ai-skills@yourcompany.com",
       "Internal Portal": "intranet/ai-skills-framework"
     }
     Supporting_Points: [
@@ -119,6 +119,6 @@ The slide is a flex-col with a header sized to its content, a main body that gro
   - Placement: Footer
   - Component Schema: "Final Footer"
   - Content:
-    Footer_Text: "AI Skills Framework v1.0 | Government Technology Agency | 2024 | Questions? Contact ai-skills@agency.gov"
+    Footer_Text: "AI Skills Framework v2.0 | GTX | 2025 | Questions? Contact ai-skills@yourcompany.com"
   - Creative Brief: Centered, text-base, opacity-60. Professional footer with version info and contact.
 

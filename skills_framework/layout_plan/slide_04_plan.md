@@ -32,7 +32,7 @@ The slide is a flex-col with a header sized to its content, a main body that gro
       ["Tech Leads", "High", "Medium", "High", "Medium", "High", "AI Worker"],
       ["QA/Testing", "Medium", "Medium", "Low", "Medium", "Medium", "AI Citizen"]
     ]
-  - Creative Brief: Professional government table with clear headers in slate-700 background, bold white text. Use color-coded dots or labels for skill levels: High (green), Medium (orange), Low (gray). Alternate row colors (zebra striping) with slate-800/slate-750. Right-align the Primary Persona column and use role-based accent colors. Text size text-lg for readability. Add subtle borders between columns.
+  - Creative Brief: Professional enterprise table with clear headers in slate-700 background, bold white text. Use color-coded dots or labels for skill levels: High (green), Medium (orange), Low (gray). Alternate row colors (zebra striping) with slate-800/slate-750. Right-align the Primary Persona column and use role-based accent colors. Text size text-lg for readability. Add subtle borders between columns.
 
 - Block 3:
   - Block Type: Text
