@@ -110,7 +110,7 @@ The slide is a flex-col with a header sized to its content, a main body that gro
     Requirements: {
       "Privacy Regulations": ["GDPR data rights", "CCPA transparency", "Right to explanation"],
       "Industry Standards": ["NIST AI Risk Management", "ISO/IEC 23894", "OWASP ML Top 10"],
-      "Government AI": ["FITARA compliance", "OMB AI guidance", "Procurement standards"]
+      "Enterprise AI Governance": ["IT standards compliance", "Enterprise AI policy", "Procurement standards"]
     }
   - Creative Brief: Matching card style. Red accent. Three requirement categories with bold headers (text-lg) and sub-items (text-base). Compact, scannable layout.
 

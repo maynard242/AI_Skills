@@ -247,7 +247,7 @@ npm run type-check  # Run TypeScript type checking
 
 ## Support
 
-- 📧 **Email**: ai-skills@agency.gov
+- 📧 **Email**: ai-skills@yourcompany.com
 - 🐛 **Issues**: Create an issue in the repository
 - 📖 **Docs**: See [Complete Guide](./AI_SKILLS_FRAMEWORK_COMPLETE_GUIDE.md)
 

@@ -1,8 +1,9 @@
 # AI Skills Framework - Complete Guide
 ## Building AI Capabilities Across IT & Technology Teams
 
-**Version 1.0 | 2024**
+**Version 2.0 | 2025**
 **A Strategic Approach for Non-AI Specialists**
+**Aligned with Industry Best Practices from Google, Amazon, Microsoft**
 
 ---
 
@@ -28,16 +29,20 @@
 
 ### The Challenge
 
-The artificial intelligence revolution is transforming every aspect of IT delivery. Traditional IT roles now require new capabilities to remain effective and relevant. Cloud platforms are democratizing AI access, making it possible for non-specialists to leverage powerful AI capabilities. However, a significant skills gap is hindering digital transformation across government and enterprise organizations.
+The artificial intelligence revolution is transforming every aspect of IT delivery. **Generative AI and Large Language Models (LLMs) are now the central pillar** of modern product strategies, with leading tech companies rebuilding their entire product suites around AI capabilities. Traditional IT roles now require new capabilities to remain effective and relevant.
+
+According to analysis of 2,700+ job listings from tech leaders in 2025, **AI has shifted from a specialized discipline to a universal business competency**. Companies are now hiring AI-fluent software engineers, product managers, marketers, and technical leaders across all functions.
 
 ### Why This Framework?
 
 The **AI Skills Framework** provides a structured, practical approach to building AI capabilities across your IT and technology teams. Unlike frameworks designed for AI specialists, this addresses the broader IT workforce:
 
 - **Non-AI Specialists**: Developers, operations staff, product managers, architects who need AI literacy and integration skills
-- **Government Context**: Practical, cloud-based approaches suitable for government technology agencies
+- **Enterprise-Ready**: Practical, cloud-based approaches suitable for modern tech organizations
+- **GenAI-First**: Strong emphasis on Generative AI, LLMs, and AI-assisted development
 - **Role-Based**: Tailored skill requirements for specific IT functions
 - **Progressive**: Clear pathways from basic awareness to advanced proficiency
+- **Certification-Aligned**: Mapped to AWS, Azure, and Google Cloud AI certifications
 
 ### Strategic Benefits
 
@@ -164,66 +169,148 @@ The following matrix shows capability requirements across IT/Technology roles:
 
 **Primary Persona**: AI Worker
 **Training Estimate**: 40-60 hours foundation | 80-120 hours intermediate | 160+ hours advanced
+**Recommended Certifications**: AWS ML Specialty, TensorFlow Developer Certificate, Azure AI Engineer Associate
+
+### 2025 Reality Check
+
+**Google's hiring data shows**: Software engineers are expected to handle the full ML lifecycle - from model deployment to optimization and debugging. Fine-tuning models for specific hardware (TPUs, GPUs) is becoming standard.
+
+**Productivity gains**: 41% of developers save 1-2 hours daily, and 22% save 3+ hours using AI-powered coding tools. AI-assisted development is no longer optional.
 
 ### Core AI Capabilities
 
-#### 1. AI Service Integration
+#### 1. Generative AI & LLM Integration (NEW - Priority Focus)
+
+**Key Skills**:
+- **Prompt Engineering**: Design effective prompts for GPT-4, Claude, Gemini
+- **RAG (Retrieval Augmented Generation)**: Implement context-aware AI applications
+- **LLM API Integration**: OpenAI, Anthropic Claude, Google Gemini, AWS Bedrock
+- **Vector Databases**: Use Pinecone, Weaviate, pgvector for semantic search
+- **Fine-tuning**: Customize LLMs for domain-specific tasks
+- **Token optimization**: Manage costs and latency in LLM applications
+- **AI Function Calling**: Enable LLMs to interact with external tools/APIs
+
+**Frameworks**:
+- LangChain / LlamaIndex for LLM applications
+- Semantic Kernel (Microsoft)
+- Hugging Face Transformers
+- Guidance / LMQL for controlled generation
+
+#### 2. AI-Assisted Development (NEW - Daily Use)
+
+**Key Skills**:
+- **GitHub Copilot**: Master AI pair programming for 40%+ productivity gains
+- **Amazon CodeWhisperer**: AWS-optimized code generation
+- **Cursor / Tabnine**: AI-powered IDEs and completions
+- **ChatGPT / Claude for code**: Use LLMs for debugging, refactoring, documentation
+- **AI-powered testing**: Automated test generation and debugging
+- **Code review automation**: Use AI to identify bugs and security issues
+
+#### 3. Cloud AI Service Integration
 
 **Key Skills**:
 - Consume REST APIs from AI/ML services (AWS SageMaker, Azure AI, Google Vertex AI)
 - Implement authentication and rate limiting for AI endpoints
-- Handle asynchronous AI model inference
+- Handle asynchronous AI model inference (batch vs real-time)
 - Error handling for AI service failures and fallbacks
+- Cost optimization for API calls (caching, batching)
 
-#### 2. Model Integration
+**Multi-Cloud Skills**:
+- **AWS**: SageMaker, Bedrock, Rekognition, Comprehend, Polly
+- **Azure**: OpenAI Service, Cognitive Services, Document Intelligence
+- **Google Cloud**: Vertex AI, Vision AI, Natural Language AI
+
+#### 4. Traditional ML Model Integration
 
 **Key Skills**:
 - Integrate pre-trained models (computer vision, NLP, recommendation)
-- Implement prompt engineering for LLMs
-- Fine-tune models using cloud-based tools
-- Version control for model artifacts and configurations
+- Use TensorFlow, PyTorch, Scikit-learn in production
+- Model serving with TorchServe, TensorFlow Serving, ONNX Runtime
+- Version control for model artifacts (DVC, MLflow)
+- A/B testing for model performance
 
-#### 3. Data Handling
+#### 5. Data Handling for AI/ML
 
 **Key Skills**:
 - Prepare and transform data for AI/ML consumption
-- Implement data validation and quality checks
+- Implement data validation and quality checks (Great Expectations)
 - Manage training/inference data pipelines
-- Handle sensitive data with privacy considerations
+- Handle sensitive data with privacy considerations (differential privacy)
+- Work with embeddings and vector representations
 
-#### 4. Responsible AI
+#### 6. Responsible AI Implementation
 
 **Key Skills**:
 - Implement bias detection and mitigation strategies
-- Build explainable AI interfaces
+- Build explainable AI interfaces (SHAP, LIME)
 - Document model limitations and appropriate use
 - Implement human-in-the-loop workflows
+- Content filtering and safety checks for LLMs
+- Monitor for model drift and performance degradation
 
-### Key Tools & Platforms
+### Key Tools & Platforms (2025 Updated)
+
+**Generative AI / LLM**:
+- OpenAI API (GPT-4, GPT-4 Turbo)
+- Anthropic Claude API
+- Google Gemini API
+- AWS Bedrock (multi-model access)
+- Azure OpenAI Service
+- LangChain / LlamaIndex
+- Vector databases (Pinecone, Weaviate, Chroma)
+
+**AI-Assisted Development**:
+- GitHub Copilot (essential)
+- Amazon CodeWhisperer
+- Cursor IDE
+- Tabnine
+- Codeium
 
 **Cloud AI Services**:
-- AWS SageMaker
-- Azure AI Services
-- Google Vertex AI
-- OpenAI API
+- AWS SageMaker, Bedrock, AI Services
+- Azure AI Services, OpenAI Service
+- Google Vertex AI, Cloud AI APIs
+- Hugging Face Inference Endpoints
 
-**Frameworks**:
-- LangChain
-- Hugging Face
-- TensorFlow.js
-- ONNX Runtime
-
-**Dev Tools**:
-- MLflow
+**ML Frameworks & Tools**:
+- TensorFlow, PyTorch, JAX
+- Scikit-learn, XGBoost
+- Hugging Face Transformers
+- ONNX Runtime for cross-platform
+- MLflow for experiment tracking
 - Weights & Biases
-- DVC
-- GitHub Copilot
 
 ### Skill Progression
 
-**Foundation**: Use pre-built AI APIs and services
-**Intermediate**: Customize models, implement pipelines
-**Advanced**: Architect AI-native applications, optimize performance
+**Foundation (40-60 hours)**:
+- Use pre-built AI APIs (OpenAI, Claude, cloud services)
+- Master prompt engineering basics
+- Integrate GitHub Copilot into daily workflow
+- Understand LLM capabilities and limitations
+
+**Intermediate (80-120 hours)**:
+- Build RAG applications with vector databases
+- Customize models through fine-tuning
+- Implement end-to-end ML pipelines
+- Multi-cloud AI service integration
+- Advanced prompt engineering and function calling
+
+**Advanced (160+ hours)**:
+- Architect AI-native applications at scale
+- Optimize model performance and costs
+- Build custom AI agents and workflows
+- Implement MLOps best practices
+- Handle complex multi-model systems
+
+### Certification Paths
+
+**Recommended Certifications**:
+1. **TensorFlow Developer Certificate** - Validates practical ML implementation
+2. **AWS Certified Machine Learning - Specialty** - Cloud ML on AWS
+3. **Microsoft Azure AI Engineer Associate** - Azure AI solutions
+4. **Google Professional Machine Learning Engineer** - GCP ML expertise
+
+**Time Investment**: 80-120 hours preparation per certification
 
 ---
 
@@ -360,65 +447,140 @@ Use this framework in early product discovery:
 
 **Primary Persona**: AI Worker
 **Training Estimate**: 50-80 hours | Prerequisites: DevOps fundamentals, cloud operations
+**Recommended Certifications**: AWS DevOps Engineer Professional, Azure DevOps Engineer Expert, Kubernetes certifications
 
-### MLOps & Model Operations
+### 2025 MLOps Reality Check
 
-#### Model Deployment
+**Market Growth**: MLOps engineer roles have seen 9.8× growth in 5 years (LinkedIn data). Compensation has jumped 20% year-over-year.
 
+**Key Challenge**: 37% of IT leaders cite lack of DevOps/MLOps skills as their #1 technical hiring challenge. The demand far exceeds supply.
+
+**AI Transformation**: 75% of organizations predicted to use AI-augmented DevOps tools by 2025. MLOps is no longer optional.
+
+### Core MLOps Capabilities
+
+#### 1. GenAI/LLM Deployment (NEW - Priority)
+
+**Key Skills**:
+- **LLM Serving**: Deploy and scale GPT-4, Claude, Llama models
+- **Vector Database Operations**: Manage Pinecone, Weaviate, Chroma at scale
+- **Embedding Generation Pipelines**: Batch and streaming embedding creation
+- **Prompt Management**: Version control and deployment for prompts
+- **Token Usage Monitoring**: Track costs and optimize LLM API usage
+- **RAG Pipeline Operations**: Deploy and monitor retrieval systems
+- **LLM Gateway Management**: Rate limiting, caching, fallback strategies
+
+**Tools**:
+- vLLM, Text Generation Inference for self-hosted LLMs
+- LangSmith for LLM observability
+- PromptLayer for prompt management
+- Vector database cloud services
+
+#### 2. Traditional ML Model Deployment
+
+**Key Skills**:
 - Containerization of AI models (Docker, Kubernetes)
-- CI/CD pipelines for ML models
+- CI/CD pipelines for ML models (GitHub Actions, GitLab CI, Jenkins)
 - A/B testing and canary deployments for models
 - Model versioning and rollback strategies
+- Blue-green deployments for ML services
+- Feature flag management for model releases
 
-#### Monitoring & Observability
+**Deployment Patterns**:
+- Batch inference pipelines
+- Real-time model serving (REST/gRPC)
+- Streaming inference
+- Edge deployment for ML models
 
-- Model performance monitoring
-- Data drift detection
-- Prediction latency tracking
-- Resource utilization monitoring
+#### 3. ML Infrastructure & Monitoring
 
-#### Infrastructure Management
+**Key Skills**:
+- **GPU/Compute Management**: NVIDIA GPUs, TPUs, AWS Inferentia
+- **Auto-scaling**: Scale ML workloads based on demand
+- **Cost Optimization**: Right-size infrastructure, spot instances, reserved capacity
+- **Model Performance Monitoring**: Track accuracy, latency, throughput
+- **Data Drift Detection**: Automated alerts for distribution shifts
+- **Model Drift Monitoring**: Detect performance degradation
+- **Resource Monitoring**: GPU utilization, memory, inference latency
 
-- GPU/compute resource management
-- Auto-scaling for ML workloads
-- Cost optimization for AI infrastructure
-- Environment management (dev/staging/prod)
+**Monitoring Stack**:
+- Prometheus + Grafana for metrics
+- ELK/EFK stack for logs
+- Jaeger/Zipkin for tracing
+- Custom ML metrics (prediction distribution, confidence scores)
 
-### AI-Specific Operations
+#### 4. ML Pipeline Orchestration
 
-#### Model Lifecycle Management
+**Key Skills**:
+- **Workflow Orchestration**: Airflow, Prefect, Kubeflow Pipelines
+- **Pipeline as Code**: Version control for ML workflows
+- **DAG Design**: Build efficient ML pipeline DAGs
+- **Dependency Management**: Handle complex pipeline dependencies
+- **Automated Retraining**: Trigger model updates based on drift
+- **Feature Pipeline Management**: Deploy and monitor feature engineering
 
-- Model registry management
+#### 5. Model Lifecycle Management
+
+**Key Skills**:
+- Model registry management (MLflow, Vertex AI Model Registry)
 - Automated model retraining triggers
-- Model deprecation and sunsetting
-- Model governance and compliance
+- Model deprecation and sunsetting strategies
+- Model governance and compliance tracking
+- Experiment tracking and reproducibility
+- Model artifact versioning (models, data, code)
 
-#### Incident Response
+#### 6. AI/ML Incident Response
 
-- AI model failure detection and response
+**Key Skills**:
+- AI model failure detection and alerting
 - Performance degradation investigation
 - Data quality incident handling
 - Rollback procedures for failed deployments
+- Root cause analysis for ML failures
+- Post-mortem processes for ML incidents
 
-### Key Tools & Technologies
+### Key Tools & Technologies (2025 Updated)
 
 **MLOps Platforms**:
-- MLflow
-- Kubeflow
-- AWS SageMaker Pipelines
-- Azure ML Pipelines
+- **Comprehensive**: Kubeflow, MLflow, Metaflow (Netflix)
+- **Cloud-Native**: AWS SageMaker Pipelines, Azure ML, Vertex AI Pipelines
+- **Modern**: ZenML, Flyte, Kedro
 
-**Monitoring**:
+**LLM Operations**:
+- vLLM, Text Generation Inference
+- LangSmith, LangFuse (observability)
+- PromptLayer, Helicone (prompt management)
+- LiteLLM (multi-LLM proxy)
+
+**Monitoring & Observability**:
 - Prometheus + Grafana
-- DataDog
-- CloudWatch
-- Azure Monitor
+- DataDog, New Relic
+- Evidently AI, Whylabs (ML-specific)
+- Arize, Fiddler (model monitoring)
 
-**Infrastructure**:
-- Kubernetes
-- Terraform
-- Docker
-- GitLab CI/CD
+**Infrastructure & Orchestration**:
+- Kubernetes (EKS, AKS, GKE)
+- Terraform, Pulumi (IaC)
+- Docker, containerd
+- Airflow, Prefect, Dagster
+- GitHub Actions, GitLab CI/CD, ArgoCD
+
+**Model Serving**:
+- TorchServe, TensorFlow Serving
+- BentoML, Seldon Core
+- KServe (Kubernetes-native)
+- Ray Serve (scalable)
+
+### Certification Paths
+
+**Recommended Certifications**:
+1. **AWS DevOps Engineer Professional** - DevOps on AWS with ML focus
+2. **Azure DevOps Engineer Expert** - Azure DevOps and ML Ops
+3. **Google Professional Cloud DevOps Engineer** - GCP DevOps practices
+4. **Certified Kubernetes Administrator (CKA)** - Essential for ML infrastructure
+5. **MLOps specializations** - Coursera, DeepLearning.AI
+
+**Time Investment**: 60-100 hours preparation per certification
 
 ---
 
@@ -426,59 +588,157 @@ Use this framework in early product discovery:
 
 **Primary Persona**: AI Worker
 **Training Estimate**: 40-70 hours | Focus on AI-specific security threats and governance
+**Recommended Certifications**: CISSP, CEH, cloud security certifications with AI focus
 
-### AI Security
+### 2025 Security Reality
 
-#### Threat Landscape
+**New Threat Landscape**: LLM-specific attacks (prompt injection, jailbreaking) are now the #1 concern. OWASP Top 10 for LLMs is essential reading.
 
-- Adversarial attacks on ML models
-- Data poisoning and training data attacks
-- Model extraction and inversion attacks
-- Prompt injection and jailbreaking (LLMs)
+**Regulatory Pressure**: EU AI Act, US Executive Order on AI, industry-specific regulations require dedicated AI governance programs.
 
-#### Security Controls
+**Third-Party Risk**: Most organizations use 5+ AI vendors/APIs, creating complex supply chain security challenges.
 
+### AI Security - Priority Threats
+
+#### 1. LLM-Specific Security (NEW - Critical)
+
+**Key Threats**:
+- **Prompt Injection**: Malicious inputs override system instructions
+- **Jailbreaking**: Bypass safety controls and content policies
+- **Indirect Prompt Injection**: Attacks via retrieved documents (RAG systems)
+- **Training Data Poisoning**: Compromise models through tainted training data
+- **Model Inversion**: Extract training data from model outputs
+- **Insecure Output Handling**: Treat LLM output as trusted code/commands
+- **PII Leakage**: Models inadvertently reveal sensitive information
+- **Token Manipulation**: Exploit tokenization for attacks
+
+**Security Controls**:
+- Input validation and sanitization for prompts
+- Output filtering and content safety checks
+- System prompt protection techniques
+- Rate limiting and abuse detection
+- Prompt firewall implementation (e.g., Lakera, Rebuff)
+- Separate trust boundaries for LLM interactions
+- Red teaming for LLM applications
+
+**Tools & Frameworks**:
+- **OWASP Top 10 for LLMs** (essential framework)
+- **Guardrails AI**, **NeMo Guardrails** (NVIDIA)
+- **Lakera Guard**, **Rebuff** (prompt injection detection)
+- **Microsoft Azure AI Content Safety**
+- **OpenAI Moderation API**
+
+#### 2. Traditional ML Security
+
+**Key Threats**:
+- Adversarial attacks on ML models (evasion, poisoning)
+- Model extraction and stealing
+- Membership inference attacks
+- Data poisoning in training pipelines
+- Supply chain attacks on ML libraries
+
+**Security Controls**:
+- Adversarial robustness testing
+- Model watermarking and fingerprinting
+- Differential privacy in training
+- Secure model serving infrastructure
+- ML supply chain security (verify packages, dependencies)
+
+#### 3. AI Infrastructure Security
+
+**Key Skills**:
 - Secure API design for AI services
-- Access control for AI models and data
+- Access control for AI models and data (RBAC, ABAC)
 - Encryption for ML data at rest and in transit
 - Secure model deployment practices
+- API key management and rotation
+- Network segmentation for ML infrastructure
+- Secrets management for AI services
 
-#### Vulnerability Assessment
+#### 4. Vulnerability Assessment & Red Teaming
 
+**Key Skills**:
 - AI-specific penetration testing
+- LLM red teaming techniques
 - Model robustness testing
-- Red teaming for AI systems
+- Automated adversarial testing
 - Security assessment of AI vendors
+- Third-party AI risk evaluation
+- Continuous security monitoring
 
 ### AI Governance
 
-#### Compliance & Regulation
+#### 1. Compliance & Regulation (2025 Update)
 
-- GDPR and AI compliance
-- AI-specific regulatory requirements
-- Data protection in ML contexts
-- Cross-border data transfer for AI
+**Key Regulations**:
+- **EU AI Act** (2024-2027 rollout) - Risk-based AI regulation
+- **GDPR + AI** - Data protection in ML contexts
+- **US Executive Order on AI** (Oct 2023) - Federal AI safety standards
+- **Industry-specific**: Healthcare (HIPAA + AI), Finance (model risk management)
+- **Cross-border data transfer** - ML training data considerations
 
-#### Risk Management
+**Skills Needed**:
+- AI risk classification (minimal, limited, high, unacceptable risk)
+- Documentation requirements for high-risk AI
+- Conformity assessments and audits
+- Impact assessments for AI systems
 
-- AI risk assessment frameworks (NIST AI RMF)
-- Third-party AI risk evaluation
+#### 2. Risk Management
+
+**Key Skills**:
+- **NIST AI Risk Management Framework** (RMF) - Governance, mapping, measuring, managing
+- Third-party AI vendor risk evaluation
 - AI incident response planning
 - Audit trails for AI decisions
+- Model cards and datasheets
+- AI system inventory and classification
 
-#### Responsible AI Practices
+**Risk Areas**:
+- Model performance risks
+- Fairness and bias risks
+- Privacy and data protection risks
+- Security and adversarial risks
+- Operational and reliability risks
 
-- Bias and fairness audits
-- Transparency and explainability requirements
-- Human oversight mechanisms
-- Ethical AI guidelines enforcement
+#### 3. Responsible AI Practices
 
-### Key Standards & Frameworks
+**Key Skills**:
+- **Bias and fairness audits** - Identify and mitigate algorithmic bias
+- **Explainability requirements** - SHAP, LIME, model interpretability
+- **Transparency mechanisms** - Model cards, dataset documentation
+- **Human oversight** - Human-in-the-loop design patterns
+- **Ethical AI guidelines** - Company-specific policies enforcement
+- **Content moderation** - Harmful content detection and filtering
 
-- NIST AI Risk Management Framework
-- ISO/IEC 42001 (AI Management System)
-- OWASP Top 10 for LLMs
-- EU AI Act compliance considerations
+**Frameworks**:
+- Microsoft Responsible AI Standard
+- Google AI Principles
+- Partnership on AI guidelines
+- IEEE Ethics in AI standards
+
+### Key Standards & Frameworks (2025)
+
+**Essential**:
+- **OWASP Top 10 for LLMs** (2023) - Must-know for LLM security
+- **NIST AI Risk Management Framework** (2023) - US federal standard
+- **ISO/IEC 42001** (2023) - AI Management System
+- **ISO/IEC 23894** - AI Risk Management
+- **EU AI Act** (2024+) - European AI regulation
+
+**Emerging**:
+- NIST AI Safety Institute frameworks
+- Cloud Security Alliance AI Security guidelines
+- Industry-specific AI standards (healthcare, finance)
+
+### Certification Paths
+
+**Recommended**:
+1. **Certified Information Systems Security Professional (CISSP)** - Foundation
+2. **Certified Ethical Hacker (CEH)** - Offensive security
+3. **AWS Security Specialty** or **Azure Security Engineer** - Cloud AI security
+4. **AI Security & Privacy courses** - Specialized training (emerging field)
+
+**Time Investment**: 100-150 hours for major certifications
 
 ---
 
@@ -840,7 +1100,7 @@ Rate your current capability (1-5) in each area:
 
 #### Training Platforms
 
-- Coursera for Government & Enterprise
+- Coursera for Enterprise
 - AWS Training and Certification
 - Microsoft Learn for Azure AI
 - Google Cloud Skills Boost
@@ -851,8 +1111,9 @@ Rate your current capability (1-5) in each area:
 #### Community & Events
 
 - Internal AI Community of Practice (to be established)
-- Government AI Network
+- Industry AI Networks and Forums
 - Cloud AI Summit Series
+- Local AI/ML Meetups and User Groups
 - AI Ethics & Governance Forums
 - MLOps Community
 - Local AI/ML meetups
@@ -912,7 +1173,7 @@ The AI revolution is here. Equip your teams with the skills they need to lead in
 ### Get Started
 
 **Program Lead**: AI Skills Framework Implementation Team
-**Email**: ai-skills@agency.gov
+**Email**: ai-skills@yourcompany.com
 **Internal Portal**: intranet/ai-skills-framework
 
 ### Supporting Statistics
@@ -958,6 +1219,6 @@ The AI revolution is here. Equip your teams with the skills they need to lead in
 
 ---
 
-**AI Skills Framework v1.0 | Government Technology Agency | 2024**
+**AI Skills Framework v2.0 | GTX | 2025**
 
-For questions or feedback: ai-skills@agency.gov
+For questions or feedback: ai-skills@yourcompany.com

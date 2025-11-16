@@ -4,20 +4,27 @@
 
 An interactive, web-based presentation framework designed to help IT and technology teams develop AI skills. This framework provides role-based learning paths for Software Developers, Product Managers, System Architects, DevOps/Operations, Security Teams, and Data Engineers.
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Updated](https://img.shields.io/badge/updated-2025-green.svg)
 
 ---
 
 ## 🎯 Overview
 
-The **AI Skills Framework** is a comprehensive, interactive presentation system that helps government and enterprise technology teams build AI capabilities. Unlike frameworks designed for AI specialists, this addresses the broader IT workforce who need to work effectively with AI technologies.
+The **AI Skills Framework** is a comprehensive, interactive presentation system that helps enterprise technology teams build AI capabilities. **Version 2.0 (2025)** includes major updates with GenAI/LLM focus, AI-assisted development, and certification paths aligned with industry best practices from Google, Amazon, and Microsoft.
+
+Unlike frameworks designed for AI specialists, this addresses the broader IT workforce who need to work effectively with AI technologies.
 
 ### Key Features
 
 - ✅ **16 professional slides** delivered as an interactive web application
 - ✅ **Role-based content** for 6+ IT/Technology roles
 - ✅ **Progressive learning paths** from AI Citizen to AI Worker
+- ✅ **GenAI/LLM focused** - RAG, prompt engineering, vector databases (NEW)
+- ✅ **AI-assisted development** - GitHub Copilot, Cursor, AI coding tools (NEW)
+- ✅ **Certification paths** - AWS ML, Azure AI, TensorFlow Developer (NEW)
+- ✅ **2025 industry data** - Google/Amazon/Microsoft hiring insights (NEW)
 - ✅ **Modern tech stack** built with Next.js 15, React 18, and Tailwind CSS
 - ✅ **Fully responsive** and optimized for presentation mode
 - ✅ **Comprehensive guide** with all content in markdown format
@@ -241,7 +248,7 @@ MIT License - Feel free to use and adapt for your organization.
 For questions, issues, or feedback:
 
 - Create an issue in this repository
-- Contact: ai-skills@agency.gov (update for your organization)
+- Contact: ai-skills@yourcompany.com (update for your organization)
 
 ---
 
@@ -258,6 +265,18 @@ This framework builds upon:
 ---
 
 ## 📊 Version History
+
+**v2.0.0** (2025) - MAJOR UPDATE
+- ✨ Enhanced with GenAI/LLM focus (RAG, prompt engineering, vector databases)
+- 🤖 Added AI-assisted development tools section (GitHub Copilot, Cursor, etc.)
+- 🎓 Included certification paths (AWS ML Specialty, Azure AI, TensorFlow Developer)
+- 📊 Updated with 2025 industry data from Google, Amazon, Microsoft hiring trends
+- 🚀 MLOps enhancements reflecting 9.8× market growth
+- 🔒 Enhanced security section with OWASP Top 10 for LLMs, prompt injection defenses
+- 🏢 Removed government-specific content, now enterprise-focused
+- ⚡ Updated all dependencies to latest stable versions (Next.js 15.1.4, React 18.3.1)
+- 📚 Major expansion of Software Developers, DevOps, and Security sections
+- ✅ Reality checks based on actual tech industry hiring data
 
 **v1.0.0** (2024)
 - Initial release
